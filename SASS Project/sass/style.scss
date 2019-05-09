@@ -1,0 +1,24 @@
+@import 'mixin';
+@import 'variables';
+
+
+.one {
+    @include text-shadow(2px 2px black, 35px);
+}
+
+
+.two {
+    width: 200px;
+    height: 200px;
+    background: $color;
+    @include box-shadow(5px, 15px, orange);
+}
+
+.three {
+    width: 200px;
+    height: 200px;
+    background-color: $color;
+    @include text-shadow(4px 4px orange, 15px);
+    @include box-shadow(5px, 10px, grey);
+
+}

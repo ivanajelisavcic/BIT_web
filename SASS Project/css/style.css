@@ -1,0 +1,19 @@
+.one {
+  text-shadow: 2px 2px black;
+  font-size: 35px; }
+
+.two {
+  width: 200px;
+  height: 200px;
+  background: #b98ed3f6;
+  box-shadow: 5px 15px orange; }
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: #b98ed3f6;
+  text-shadow: 4px 4px orange;
+  font-size: 15px;
+  box-shadow: 5px 10px grey; }
+
+/*# sourceMappingURL=style.css.map */
