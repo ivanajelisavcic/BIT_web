@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.idle {
+    position: absolute;
+    height: 200px;
+    left: 500px;
+    top: 690px;
+}
+
+.running {
+    position: absolute;
+    height: 200px;
+    left: 500px;
+    top: 690px;
+}
+
+.static {
+    position: relative;
+    background: url("bg.jpg");
+    background-position: 0 0;
+    height: 100vh;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.mooving {
+    position: relative;
+    background: url("bg.jpg");
+    background-position: 0 0;
+    height: 100vh;
+    background-repeat: repeat-x;
+    background-size: cover;
+    animation: animate 1s linear infinite;
+
+}
+
+.hide {
+    display: none;
+}
+
+@keyframes animate {
+    from {
+        background-position: 1800px 0;
+    }
+
+    to {
+        background-position: 0 0;
+    }
+}
+
+.metkic {
+    position: absolute;
+    top: 770px;
+    left: 20px;
+    height: 70px;
+
+
+
+
+}
