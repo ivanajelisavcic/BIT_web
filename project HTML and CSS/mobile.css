@@ -1,0 +1,596 @@
+@font-face {
+    font-family: "Roboto-Regular"; 
+    src: url(./fonts/Roboto-Regular.woff) format('truetype');
+    font-family: "Roboto-Regular"; 
+}
+@font-face { 
+    src: url(./fonts/Roboto-Regular.ttf);
+    font-family: "Roboto-Bold"; 
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto-Thin"; 
+    src: url(./fonts/Roboto-Thin.woff);
+    font-family: "Roboto-Thin"; 
+    src: url(./fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: "Roboto-Medium"; 
+    src: url(./fonts/Roboto-Medium.ttf);
+    font-family: "Roboto-Medium"; 
+    src: url(./fonts/Roboto-Medium.woff);
+}
+
+
+
+.cf::before,
+.cf::after{
+    content: "";
+    display: table;
+}
+.cf::after{
+    clear: both;
+}
+
+
+
+
+/* .mobileversion{
+    width: 576px;
+             
+} */
+
+body {
+    margin: 0;
+    margin-top: 20px;
+}
+
+
+
+/* .logoimage{
+    display: block;
+    margin: auto;
+    width: 200px;
+    padding-top: 50px;
+
+} */
+
+.alllogo{
+    display: block;
+    margin: auto;
+    font-family: "Roboto-Regular";
+    color: gray;
+    text-align: center;
+    position: relative;
+
+    
+}
+
+.logo{
+    font-weight: bold;
+    border: 5px solid gray;
+    color:  orange;
+    padding-left: 10px;
+    border-right: none;       
+}
+
+
+.header{
+
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 15px;
+    color:white;
+    width: 85%;
+    margin: 30px;
+
+}
+
+.list{
+    list-style: none;
+    font-family: "Roboto-Regular";
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.imagetext{
+
+color: white;
+font-family: "Roboto-Thin"; 
+font-weight: bolder;
+font-size: 25px;
+text-align: center;
+padding: 60px;
+}
+
+
+div.box.cf{
+background-image: url("./images/banner3.jpg");
+width: 100%;
+height: 300px;
+background-size: cover;
+}
+
+.readmore{
+    font-family: "Roboto-Thin";
+    border-radius: 70px;
+    background-color: rgb(42, 137, 196);
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 220px;
+}
+
+
+
+.mainwhoweare{
+    font-family: "Roboto-Medium";
+}
+
+/*Who we are*/
+
+.WhoWeAre{
+font-family: "Roboto-Regular";
+text-align: center;
+margin-bottom: 0;
+margin-top: 100px;
+font-size: 35px;
+}
+
+/* .diamond{
+margin-left: 40%;
+} */
+
+.diamondstyle{
+    text-align: center;
+
+}
+
+.welcome{
+    color: lightskyblue;
+    font-family: "Roboto-Regular";
+}
+
+.welcomeparagraph{
+    color: rgb(44, 42, 42);
+    font-family: "Roboto-Regular";
+}
+
+.arrow{
+    list-style-image: url(./images/strelica.jpg);
+    color: gray;
+}
+
+
+
+
+.aboutimg{
+    width: 85%;
+    height: 450px;
+    margin: 30px;
+}
+
+
+/*What people says*/
+
+.testimonials{
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 20px;
+    color:white;
+    width: 80%;
+    margin: 30px;
+    clear: left;
+}
+
+.peopleimages{
+     border-radius: 50%;
+     display: inline-block;
+     float: left;
+     width: 80px;
+     position: relative;  
+     padding: 2px;  
+     border: solid white;
+     
+}
+
+.imagesandstars{
+    position: relative;   
+    color: black;
+    font-family: "Roboto-Bold";
+    text-align: left;
+}
+
+.imagesandstars > img {
+    margin-right: 10px;
+}
+
+.textandstars {
+    padding-top: 20px;
+}
+
+.testimonial-stars{
+    position: relative;   
+    width: 100px;
+    float: left;
+}
+
+.paragraf{
+    position: relative;   
+    display: inline-block;
+}
+
+
+
+/*contact us*/
+
+.contact{
+    width: 100%;
+}
+
+.contactbox{
+    background-color: lightgreen;
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    font-family: "Roboto-Regular"
+}
+
+.contactbox1{
+    background-color:rgb(248, 115, 137);
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    height: 200px;
+    box-sizing: border-box;
+    font-family: "Roboto-Regular"
+}
+
+.contactbox2{
+    background-color: rgb(62, 139, 187);
+    width: 50%;
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    font-family: "Roboto-Regular"
+}
+
+.contactbox3{
+    background-color: lightskyblue;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 200px;
+    font-family: "Roboto-Regular";
+    text-align: center;
+}
+
+
+#phonedimensions{
+    width: 15px;
+}
+
+#mail{
+    width: 20px;
+}
+
+#housedimensions{
+    width: 50%;
+
+   
+}
+
+.socialmediaicons{
+    width: 30px;
+}
+
+
+/*contact form*/
+
+#name{
+    width: 95%;
+    margin: 10px;
+    border: 2px groove rgb(155, 149, 149);
+    height: 30px;
+    padding: 5px;
+    font-family: "Roboto-Regular";
+}
+
+#email{
+    width: 95%;
+    margin: 10px;
+    border: 2px groove rgb(155, 149, 149);
+    height: 30px;
+    padding: 5px;
+    font-family: "Roboto-Regular";
+}
+
+#telephone{
+    width: 95%;
+    margin: 10px;
+    border: 2px groove rgb(155, 149, 149);
+    height: 30px;
+    padding: 5px;
+    font-family: "Roboto-Regular";
+}
+
+#message{
+    width: 95%;
+    margin: 10px;
+    border: 2px groove rgb(155, 149, 149);
+    height: 30px;
+    padding: 5px;
+    font-family: "Roboto-Regular";
+}
+
+#submit{
+    background-color: orange;
+    border: 0; 
+    padding: 10px 25px; 
+    color: #fff; 
+    font-size: 14px;
+    margin-left: 10px; 
+    margin-bottom: 40px;
+}
+
+.formdecoration{
+    border-radius: 50%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+
+
+/*footer*/
+
+.unorderedlist{
+    list-style-type: none;
+    padding: 0 px;
+    color: white;
+    background-color: rgb(46, 44, 44);
+    text-align: center;
+    font-family: "Roboto-Regular";
+    
+}
+
+.unorderedlist li{
+    display: inline;
+    background-color: rgb(46, 44, 44);
+    font-family: "Roboto-Regular";
+}
+
+#copyright{
+    color: white;
+    background-color: rgb(46, 44, 44);
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    font-family: "Roboto-Regular";
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIUM DEVICES*/
+
+
+@media only screen and (min-width: 768px){
+
+    .list li{
+        display: inline;
+    }
+
+
+    .header{
+
+        background-color: transparent;
+        
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .firstdiv{
+        position: absolute;
+        top: 20px;
+        left: 20px;     
+
+    }
+    .alllogo{
+        color:white;
+        
+        
+    }
+    
+    .logo{
+        border-color: white;
+       
+    }
+
+    div.box.cf{
+
+        height: 600px;
+        }
+
+        body {
+            margin: 0;
+
+        }
+
+        .imagetext{
+        margin-top: 130px;
+        font-family: "Roboto-Regular";
+        font-size: 35px;
+            }
+
+        #firstbutton{
+            text-align: center;
+        }
+
+        .readmore{
+ 
+            margin-left: 0;
+        }
+
+
+        .diamondstyle{
+            text-align: center;
+        
+        }
+        /* .diamond{
+            margin: 0;
+            } */
+
+
+
+        .mainwhoweare{
+            float: left;
+            width: 50%;
+            }
+
+        .bigimagetwo{
+            float: left;
+            width: 50%;
+        }
+
+        #sectiontwo{
+            float: left;
+            width: 100%;
+        }
+        .arrow{
+         margin-bottom: 50px;
+        }
+
+        .testimonials{
+            float: left;
+            clear: none;
+            width: 36%;
+        }
+
+        #name{
+            width: 29%;
+            float: left;
+
+        }
+        
+        #email{
+            width: 29%;
+            float: left;
+
+        }
+        
+        #telephone{            
+            width: 28%;
+            float: left;
+
+        }
+        
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LARGE DEVICES */
+
+@media only screen and (min-width: 1000px){
+
+
+    .threeinrow::before,
+    .threeinrow::after{
+        content: "";
+        display: table;
+        }
+    .threeinrow::after{
+        clear: both;
+}
+    
+    .threeinrow{
+        margin: 0 150px;
+
+        }
+
+    .mainwhoweare{
+        float: left;
+        width: 33%;
+        }
+
+    .bigimagetwo{
+            float: left;
+            width: 33%;
+        }
+
+    #sectiontwo{
+        float: left;
+        width: 33%;
+    }
+
+    .testimonials{
+        float: left;
+        clear: none;
+        width: 25%;
+    }
+
+    .contactbox{
+        width: 25%;
+    }
+    
+    .contactbox1{
+        width: 25%;
+    }
+    
+    .contactbox2{
+        width: 25%;
+    }
+    
+    .contactbox3{
+        width: 25%;
+    }
+
+    #name{
+        width: 30%;
+    }
+    
+    #email{
+        width: 30%;
+    }
+
+    #telephone{            
+        width: 29%;
+    }
+
+}
